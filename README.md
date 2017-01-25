@@ -22,13 +22,13 @@ En "tombant" dans le trou, il atterit sur la prochaine salle
 
 
 Blueprints utilisés:
- - SM_Door_1st_Room_Blueprint
+ - SM_Door_1st_Room_Blueprint:
     Blueprint de la porte de la première salle, à laquelle un composant OpenDoor_1stRoom est associé. Le code C++ est presque le
     même que celui vu en cours, à la différence où cette fois, il ne faut pas placer des objets pour atteindre un seuil de 
     poids pour ouvrir la porte, mais enlever des objets "encombrant" la porte pour qu'elle s'ouvre si le poids sur le trigger
     est sous un certain seuil (le poids du joueur étant inférieur à ce seuil). En somme, outre la valeur de poids modifiée, le
     seul changement est l'inversion de l'ordre d'appel des méthodes OpenDoor et CloseDoor
- - FirstPersonCharacter_BP
+ - FirstPersonCharacter_BP:
     Blueprint du pawn du joueur. Configurations d'une vue FPS classique avec déplacements, sprint, saut et tir implémentés de
     base. Un composant Grabber est ajouté au personnage afin de lui permettre de déplacer les objets en les saisissant.
     L'idée à long terme était de remplacer le tir du fusil par un rayon permettant de déplacer les objets
