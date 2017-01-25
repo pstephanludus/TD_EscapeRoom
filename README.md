@@ -22,7 +22,7 @@ En "tombant" dans le trou, il atterit sur la prochaine salle
 
 
 Blueprints utilisés:
- - <bold>SM_Door_1st_Room_Blueprint</bold>: 
+ - SM_Door_1st_Room_Blueprint: 
     Blueprint de la porte de la première salle, à laquelle un composant OpenDoor_1stRoom est associé. Le code C++ est presque le
     même que celui vu en cours, à la différence où cette fois, il ne faut pas placer des objets pour atteindre un seuil de 
     poids pour ouvrir la porte, mais enlever des objets "encombrant" la porte pour qu'elle s'ouvre si le poids sur le trigger
