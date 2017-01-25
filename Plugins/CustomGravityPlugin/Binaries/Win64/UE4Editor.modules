@@ -1,0 +1,9 @@
+{
+	"Changelist" : 3224400,
+	"CompatibleChangelist" : 3195953,
+	"BuildId" : "bece10aa-c853-4720-af9c-bdaf8f600879",
+	"Modules" : 
+	{
+		"CustomGravityPlugin" : "UE4Editor-CustomGravityPlugin-6400.dll"
+	}
+}
